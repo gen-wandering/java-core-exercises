@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add tasks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/letters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/letters/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2b5gk0tPFa4qwX30TnKvGkfSFpJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Program (1).executor": "Run",
+    "Application.Program (2).executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.com.tasks.Test.Main (1).executor": "Run",
+    "Application.com.tasks.Test.Main (2).executor": "Run",
+    "Application.com.tasks.Test.Main (3).executor": "Run",
+    "Application.com.tasks.Test.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.callableth.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.runnableth.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.syncindex.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.tests.Main.executor": "Run",
+    "Application.com.tasks.letters.Main (1).executor": "Run",
+    "Application.com.tasks.letters.Main (2).executor": "Run",
+    "Application.com.tasks.letters.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/00-memory-multithreading-14.01.24/Tasks/src/main/java/com/tasks/averagemarks/syncindex",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\averagemarks\syncindex" />
+      <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\averagemarks\var2" />
+      <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\averagemarks\var1" />
+      <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\second" />
+      <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\first" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tasks.averagemarks.syncindex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.tasks.letters.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.tests333.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.averagemarks.tests333.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.tests333.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.averagemarks.tests333.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tasks.averagemarks.callableth.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.callableth.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.averagemarks.callableth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tasks.averagemarks.syncindex.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.syncindex.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.averagemarks.syncindex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tasks.letters.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.letters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tasks.letters.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.letters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tasks.letters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.letters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.tasks.letters.Main" />
+        <item itemvalue="Application.com.tasks.averagemarks.callableth.Main" />
+        <item itemvalue="Application.com.tasks.averagemarks.syncindex.Main" />
+        <item itemvalue="Application.com.tasks.letters.Main (2)" />
+        <item itemvalue="Application.com.tasks.letters.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="" />
+      <created>1705510493896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705510493896</updated>
+      <workItem from="1705510494999" duration="145000" />
+      <workItem from="1705511859234" duration="5723000" />
+      <workItem from="1705523655766" duration="2484000" />
+      <workItem from="1705528044436" duration="6516000" />
+      <workItem from="1705610010545" duration="6160000" />
+      <workItem from="1705617880991" duration="6209000" />
+      <workItem from="1705677571380" duration="320000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add tasks">
+      <option name="closed" value="true" />
+      <created>1705624235013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705624235013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tasks" />
+  </component>
+</project>
