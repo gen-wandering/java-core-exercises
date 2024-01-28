@@ -29,7 +29,7 @@ public class Generator extends Thread {
 
         System.out.println(Thread.currentThread().getName() + " start: " + startIndex + "\tend: " + endIndex);
 
-        for (int i = startIndex; i < endIndex; i++) {
+        for (int i = startIndex; i <= endIndex; i++) {
             marks[i] = random.nextInt(1, 10001);
         }
         try {

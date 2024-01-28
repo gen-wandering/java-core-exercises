@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Averager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/GenerationTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/GeneratorStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Test.java" afterDir="false" />
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add average/marks task with blocking queues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,44 +35,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Program (1).executor": "Run",
-    "Application.Program (2).executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.com.tasks.Test.Main (1).executor": "Run",
-    "Application.com.tasks.Test.Main (2).executor": "Run",
-    "Application.com.tasks.Test.Main (3).executor": "Run",
-    "Application.com.tasks.Test.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.callableth.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.runnableth.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.syncindex.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.tests.Main.executor": "Run",
-    "Application.com.tasks.averagemarks.threadpool.Main.executor": "Run",
-    "Application.com.tasks.letters.Main (1).executor": "Run",
-    "Application.com.tasks.letters.Main (2).executor": "Run",
-    "Application.com.tasks.letters.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/Tasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.Test.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.Test.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.Test.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.Test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.callableth.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.runnableth.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.syncindex.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.tests.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.averagemarks.threadpool.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.letters.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.letters.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tasks.letters.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Main/Programming/Java/Mentoring/Tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\averagemarks\syncindex" />
@@ -91,7 +85,7 @@
       <recent name="com.tasks.averagemarks.syncindex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.blockingqueues.Main" />
       <module name="Tasks" />
@@ -172,8 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.com.tasks.averagemarks.threadpool.Main" />
         <item itemvalue="Application.com.tasks.letters.Main" />
         <item itemvalue="Application.com.tasks.averagemarks.callableth.Main" />
         <item itemvalue="Application.com.tasks.averagemarks.syncindex.Main" />
@@ -208,7 +202,8 @@
       <workItem from="1706304870685" duration="691000" />
       <workItem from="1706373183254" duration="601000" />
       <workItem from="1706373902444" duration="1889000" />
-      <workItem from="1706388495131" duration="17412000" />
+      <workItem from="1706388495131" duration="17729000" />
+      <workItem from="1706411098335" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -226,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705678133076</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add average/marks task with blocking queues">
+      <option name="closed" value="true" />
+      <created>1706406096934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706406096934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tasks" />
+    <MESSAGE value="Add average/marks task with blocking queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add average/marks task with blocking queues" />
   </component>
 </project>
