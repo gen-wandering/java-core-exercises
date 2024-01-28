@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Averager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/GenerationTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/GeneratorStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/letters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/letters/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
     "Application.Program (2).executor": "Run",
     "Application.Program.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.com.tasks.Test.Main (1).executor": "Run",
     "Application.com.tasks.Test.Main (2).executor": "Run",
     "Application.com.tasks.Test.Main (3).executor": "Run",
@@ -55,6 +60,7 @@
     "Application.com.tasks.averagemarks.runnableth.Main.executor": "Run",
     "Application.com.tasks.averagemarks.syncindex.Main.executor": "Run",
     "Application.com.tasks.averagemarks.tests.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.threadpool.Main.executor": "Run",
     "Application.com.tasks.letters.Main (1).executor": "Run",
     "Application.com.tasks.letters.Main (2).executor": "Run",
     "Application.com.tasks.letters.Main.executor": "Run",
@@ -64,7 +70,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/00-memory-multithreading-14.01.24/Tasks/src/main/java/com/tasks/averagemarks/syncindex",
+    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/Tasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,13 +91,13 @@
       <recent name="com.tasks.averagemarks.syncindex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tasks.letters.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.tests333.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.blockingqueues.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.averagemarks.tests333.*" />
+          <option name="PATTERN" value="com.tasks.averagemarks.blockingqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tasks.averagemarks.tests333.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.blockingqueues.Test" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.averagemarks.blockingqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,32 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tasks.letters.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.letters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tasks.letters.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.letters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.tasks.letters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tasks.letters.Main" />
       <module name="Tasks" />
@@ -179,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.tasks.averagemarks.threadpool.Main" />
         <item itemvalue="Application.com.tasks.letters.Main" />
         <item itemvalue="Application.com.tasks.averagemarks.callableth.Main" />
         <item itemvalue="Application.com.tasks.averagemarks.syncindex.Main" />
-        <item itemvalue="Application.com.tasks.letters.Main (2)" />
-        <item itemvalue="Application.com.tasks.letters.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +201,14 @@
       <workItem from="1705528044436" duration="6516000" />
       <workItem from="1705610010545" duration="6160000" />
       <workItem from="1705617880991" duration="6209000" />
-      <workItem from="1705677571380" duration="320000" />
+      <workItem from="1705677571380" duration="983000" />
+      <workItem from="1705853814186" duration="445000" />
+      <workItem from="1705856074248" duration="610000" />
+      <workItem from="1706036351632" duration="177000" />
+      <workItem from="1706304870685" duration="691000" />
+      <workItem from="1706373183254" duration="601000" />
+      <workItem from="1706373902444" duration="1889000" />
+      <workItem from="1706388495131" duration="17412000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -218,11 +218,30 @@
       <option name="project" value="LOCAL" />
       <updated>1705624235013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add tasks">
+      <option name="closed" value="true" />
+      <created>1705678133076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705678133076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tasks" />
