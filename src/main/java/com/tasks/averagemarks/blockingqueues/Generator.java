@@ -1,41 +1,42 @@
 package com.tasks.averagemarks.blockingqueues;
 
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Generator extends Thread {
-    private final BlockingQueue<GenerationTask> generationTasksQueue;
+    private final int N;
+    private final Splitter.Part part;
+    private final int subPartsNumber;
+    private final PutTakeQueue<AveragingTask> averageTaskQueue;
 
-    public Generator(BlockingQueue<GenerationTask> generationTasksQueue, String name) {
-        super(name);
-        this.generationTasksQueue = generationTasksQueue;
+    public Generator(int N, Splitter.Part part, int subPartsNumber,
+                     PutTakeQueue<AveragingTask> averageTaskQueue) {
+        this.N = N;
+        this.part = part;
+        this.subPartsNumber = subPartsNumber;
+        this.averageTaskQueue = averageTaskQueue;
     }
 
     @Override
     public void run() {
-        while (true) {
-            try {
-                GenerationTask task = generationTasksQueue.take();
-                generateAndEnqueue(task.marks(), task.startIndex(), task.endIndex(), task.averagingTasksQueue());
-            } catch (InterruptedException e) {
-                System.out.println("Generator thread " + Thread.currentThread().getName() + " was interrupted");
-                return;
-            }
-        }
-    }
-
-    private void generateAndEnqueue(int[] marks, int startIndex, int endIndex, BlockingQueue<AveragingTask> averageTaskQueue) {
+        Splitter splitter = new Splitter(part.size(), subPartsNumber);
         ThreadLocalRandom random = ThreadLocalRandom.current();
 
-        System.out.println(Thread.currentThread().getName() + " start: " + startIndex + "\tend: " + endIndex);
+        System.out.println(Thread.currentThread().getName() + " start: " + part.start() + "\tend: " + part.end());
 
-        for (int i = startIndex; i <= endIndex; i++) {
-            marks[i] = random.nextInt(1, 10001);
-        }
-        try {
-            averageTaskQueue.put(new AveragingTask(marks, startIndex, endIndex));
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        int k = 0;
+        while (!splitter.isEmpty()) {
+            int[] a = new int[splitter.next().size()];
+
+            for (int i = 0; i < a.length; i++) {
+                a[i] = random.nextInt(1, 1001);
+            }
+            System.out.println(Thread.currentThread().getName() + " enqueue task " + (++k));
+
+            try {
+                averageTaskQueue.put(new AveragingTask(N, a));
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }

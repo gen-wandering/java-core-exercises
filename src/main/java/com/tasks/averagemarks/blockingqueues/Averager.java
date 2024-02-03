@@ -1,11 +1,9 @@
 package com.tasks.averagemarks.blockingqueues;
 
-import java.util.concurrent.BlockingQueue;
-
 public class Averager extends Thread {
-    private final BlockingQueue<AveragingTask> taskQueue;
+    private final PutTakeQueue<AveragingTask> taskQueue;
 
-    public Averager(BlockingQueue<AveragingTask> taskQueue, String name) {
+    public Averager(PutTakeQueue<AveragingTask> taskQueue, String name) {
         super(name);
         this.taskQueue = taskQueue;
     }
@@ -15,7 +13,7 @@ public class Averager extends Thread {
         while (true) {
             try {
                 AveragingTask task = taskQueue.take();
-                double average = calculate(task.marks(), task.startIndex(), task.endIndex());
+                double average = calculate(task.N(), task.a());
                 System.out.println(Thread.currentThread().getName() + " average: " + average);
             } catch (InterruptedException e) {
                 System.out.println("Averager thread " + Thread.currentThread().getName() + " was interrupted");
@@ -24,14 +22,11 @@ public class Averager extends Thread {
         }
     }
 
-    private double calculate(int[] marks, int startIndex, int endIndex) {
-
-        System.out.println(Thread.currentThread().getName() + " start: " + startIndex + "\tend: " + endIndex);
-
+    private double calculate(int N, int[] a) {
         int sum = 0;
-        for (int i = startIndex; i <= endIndex; i++) {
-            sum += marks[i];
+        for (int value : a) {
+            sum += value;
         }
-        return (double) sum / marks.length;
+        return (double) sum / N;
     }
 }

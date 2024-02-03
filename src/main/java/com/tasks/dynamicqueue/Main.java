@@ -52,7 +52,7 @@ public class Main {
         Thread.sleep(100);
 
         System.out.println("Taken element: " + dynamicQueue.take());
-        System.out.println("Taken element: " + dynamicQueue.take());
+        System.out.println("Taken element: " + dynamicQueue.remove());
         Thread.sleep(100);
 
         printQueue();

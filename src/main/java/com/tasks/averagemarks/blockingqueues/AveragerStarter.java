@@ -2,13 +2,12 @@ package com.tasks.averagemarks.blockingqueues;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.BlockingQueue;
 
 public class AveragerStarter {
     private final List<Averager> averagers;
-    private final BlockingQueue<AveragingTask> averagingTaskQueue;
+    private final PutTakeQueue<AveragingTask> averagingTaskQueue;
 
-    public AveragerStarter(int amountOfThreads, BlockingQueue<AveragingTask> averagingTaskQueue) {
+    public AveragerStarter(int amountOfThreads, PutTakeQueue<AveragingTask> averagingTaskQueue) {
         this.averagers = new ArrayList<>(amountOfThreads);
         this.averagingTaskQueue = averagingTaskQueue;
 

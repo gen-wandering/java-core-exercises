@@ -1,5 +1,7 @@
 package com.tasks.dynamicqueue;
 
+import com.tasks.dynamicqueue.exceptions.*;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.locks.Condition;
@@ -19,11 +21,12 @@ public class DynamicCapacityBlockingQueue<T> {
     }
 
     public void setMaxCapacity(int newMaxCapacity) {
-        if (maxCapacity >= newMaxCapacity) {
-            throw new RuntimeException("maxCapacity >= newMaxCapacity");
+        if (size() > newMaxCapacity) {
+            throw new CapacityReductionException("newMaxCapacity is less than queue size");
         }
         lock.lock();
         try {
+            if (newMaxCapacity == maxCapacity) return;
             maxCapacity = newMaxCapacity;
             notFull.signalAll();
         } finally {
@@ -31,10 +34,35 @@ public class DynamicCapacityBlockingQueue<T> {
         }
     }
 
+    public void add(T item) {
+        lock.lock();
+        try {
+            if (size() == maxCapacity)
+                throw new QueueFullException("Queue is full");
+        } finally {
+            lock.unlock();
+        }
+        queue.add(item);
+    }
+
+    public T remove() {
+        if (queue.isEmpty()) throw new QueueEmptyException("Queue is empty");
+        else {
+            T item = queue.remove();
+            lock.lock();
+            try {
+                notFull.signal();
+                return item;
+            } finally {
+                lock.unlock();
+            }
+        }
+    }
+
     public void put(T item) throws InterruptedException {
         lock.lock();
         try {
-            while (queue.size() >= maxCapacity)
+            while (queue.size() == maxCapacity)
                 notFull.await();
             queue.put(item);
         } finally {

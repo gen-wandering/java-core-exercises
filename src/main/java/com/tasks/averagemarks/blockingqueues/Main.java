@@ -2,28 +2,21 @@ package com.tasks.averagemarks.blockingqueues;
 
 /*
  * Задача
- *     Дан массив "int[] marks", 2 (или более) потока заполняют массив,
- *     как только одна из секций массива заполнена поток передает
- *     задачу подсчета среднего значения в данной секции считающим потокам.
+ *     Дан отрезок от [0, N], 2 (или более) потока производят заполнение,
+ *     передавая подзадачи подсчета среднего на заполненном участке отрезка
+ *     считающим потокам.
  * */
 
-import java.util.concurrent.*;
-
 public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        PutTakeQueue<AveragingTask> putTakeQueue = new PutTakeQueue<>(5);
 
-    public static void main(String[] args) {
-        final int[] marks = new int[10_000];
+        GeneratorStarter generatorStarter = new GeneratorStarter(10_000, 2, putTakeQueue);
+        AveragerStarter averagerStarter = new AveragerStarter(5, putTakeQueue);
 
-        BlockingQueue<GenerationTask> generationTaskQueue = new ArrayBlockingQueue<>(16);
-        BlockingQueue<AveragingTask> averagingTaskQueue = new ArrayBlockingQueue<>(32);
+        generatorStarter.startGeneratingThreads();
 
-        AveragerStarter averagerStarter = new AveragerStarter(5, averagingTaskQueue);
-        GeneratorStarter generatorStarter = new GeneratorStarter(marks,
-                100, 2, generationTaskQueue, averagingTaskQueue);
-
-        generatorStarter.splitAndEnqueue();
-
-        generatorStarter.interrupt();
+        Thread.sleep(2000);
         averagerStarter.interrupt();
     }
 }
