@@ -29,7 +29,7 @@ public class Main {
     }
 
     private static class ParallelFileProcessor {
-        private final Path start = Path.of("src/main/java/com/tasks/completed/executors/fileprocessing/files");
+        private final Path start = Path.of("src/main/resources/executors/fileprocessing");
 
         private final ExecutorService executorService;
         private final Map<String, Future<Integer>> futureMap;

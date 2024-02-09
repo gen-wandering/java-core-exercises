@@ -12,7 +12,7 @@ public class AveragerStarter {
         this.averagingTaskQueue = averagingTaskQueue;
 
         for (int i = 0; i < amountOfThreads; i++) {
-            averagers.add(new Averager(averagingTaskQueue, "A" + i));
+            averagers.add(new Averager(averagingTaskQueue, "executors/fileprocessing/A" + i));
         }
         for (Thread averager : averagers) {
             averager.start();

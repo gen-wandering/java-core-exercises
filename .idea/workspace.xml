@@ -4,50 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add first DynamicCapacityBlockingQueue task SynchronousQueue task and both Executors tasks">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Averager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/Averager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragerStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/AveragingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragingTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/GeneratorStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/GeneratorStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/PutTakeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/PutTakeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/blockingqueues/Splitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/Splitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/callableth/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/callableth/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/callableth/Marks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/callableth/Marks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/runnableth/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/AverageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/runnableth/AverageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/runnableth/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/runnableth/Marks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/runnableth/Marks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/syncindex/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/syncindex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/Marks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/syncindex/Marks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/averagemarks/syncindex/SharedIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/syncindex/SharedIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/model/SensitiveObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/model/SensitiveObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/deepclone/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/deepclone/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/dynamicqueue/DynamicCapacityBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/dynamicqueue/DynamicCapacityBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/dynamicqueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/dynamicqueue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/dynamicqueue/exceptions/CapacityReductionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/dynamicqueue/exceptions/CapacityReductionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/dynamicqueue/exceptions/QueueEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/dynamicqueue/exceptions/QueueEmptyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/dynamicqueue/exceptions/QueueFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/dynamicqueue/exceptions/QueueFullException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/CountTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/CountTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/A/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/A/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/C/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/C/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/D/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/D/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/g.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/fileprocessing/files/B/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/executors/matrices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/matrices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/letters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/letters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/synchronousqueue/MultipleConsumersExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/synchronousqueue/MultipleConsumersExecutors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/synchronousqueue/MultipleConsumersSyncQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/synchronousqueue/MultipleConsumersSyncQueue.java" afterDir="false" />
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add division into current and completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/AveragingRecursiveTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/GenerationRecursiveTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/ExpiringCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/TextSearchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/Benchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/WordFrequencyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wordfrequency/shakespeareX6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/A/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/A/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/e.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/g.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/c.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +66,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Benchmark.executor": "Run",
     "Application.DynamicCapacityBlockingQueue.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
@@ -111,7 +89,11 @@
     "Application.com.tasks.averagemarks.syncindex.Main.executor": "Run",
     "Application.com.tasks.averagemarks.tests.Main.executor": "Run",
     "Application.com.tasks.averagemarks.threadpool.Main.executor": "Run",
+    "Application.com.tasks.completed.executors.fileprocessing.Main (1).executor": "Run",
+    "Application.com.tasks.completed.executors.fileprocessing.Main (2).executor": "Run",
     "Application.com.tasks.completed.executors.fileprocessing.Main.executor": "Run",
+    "Application.com.tasks.current.averagemarks.forkjoin.Main.executor": "Run",
+    "Application.com.tasks.current.expiringcache.Main.executor": "Run",
     "Application.com.tasks.dynamicqueue.Main.executor": "Run",
     "Application.com.tasks.executors.fileprocessing.Main (1).executor": "Run",
     "Application.com.tasks.executors.fileprocessing.Main (2).executor": "Run",
@@ -148,6 +130,9 @@
       <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\first" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Main\Programming\Java\Mentoring\Tasks\src\main\resources\wordfrequency" />
+      <recent name="D:\Main\Programming\Java\Mentoring\Tasks\src\main\resources\executors" />
+      <recent name="D:\Main\Programming\Java\Mentoring\Tasks\src\main\resources\fileprocessing" />
       <recent name="D:\Main\Programming\Java\Mentoring\Tasks\src\main\java\com\tasks\executors\fileprocessing\files\B" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -155,7 +140,46 @@
       <recent name="com.tasks.averagemarks.syncindex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tasks.completed.executors.fileprocessing.Main">
+  <component name="RunManager" selected="Application.com.tasks.current.averagemarks.forkjoin.Main">
+    <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.wordfrequency.Benchmark" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.current.wordfrequency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.wordfrequency.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.current.wordfrequency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.wordfrequency.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.current.wordfrequency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.tests333.Main" />
       <module name="Tasks" />
@@ -169,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleConsumersExecutors (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.synchronousqueue.MultipleConsumersExecutors" />
+    <configuration name="com.tasks.current.averagemarks.forkjoin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.averagemarks.forkjoin.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.synchronousqueue.*" />
+          <option name="PATTERN" value="com.tasks.current.averagemarks.forkjoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,51 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleConsumersExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.synchronousqueue.MultipleConsumersExecutors" />
+    <configuration name="com.tasks.current.expiringcache.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.expiringcache.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.synchronousqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tasks.averagemarks.blockingqueues.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.averagemarks.blockingqueues.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.averagemarks.blockingqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tasks.completed.executors.fileprocessing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.completed.executors.fileprocessing.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.completed.executors.fileprocessing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tasks.dynamicqueue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.dynamicqueue.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.dynamicqueue.exceptions.*" />
+          <option name="PATTERN" value="com.tasks.current.expiringcache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.tasks.completed.executors.fileprocessing.Main" />
-        <item itemvalue="Application.com.tasks.averagemarks.blockingqueues.Main" />
-        <item itemvalue="Application.com.tasks.dynamicqueue.Main" />
-        <item itemvalue="Application.MultipleConsumersExecutors" />
-        <item itemvalue="Application.MultipleConsumersExecutors (1)" />
+        <item itemvalue="Application.com.tasks.current.averagemarks.forkjoin.Main" />
+        <item itemvalue="Application.com.tasks.current.expiringcache.Main" />
+        <item itemvalue="Application.Benchmark" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +271,12 @@
       <workItem from="1706950746597" duration="129000" />
       <workItem from="1706950888209" duration="10022000" />
       <workItem from="1706964641196" duration="3516000" />
+      <workItem from="1707223389744" duration="242000" />
+      <workItem from="1707384716863" duration="271000" />
+      <workItem from="1707386406096" duration="8990000" />
+      <workItem from="1707472299779" duration="304000" />
+      <workItem from="1707472705117" duration="1025000" />
+      <workItem from="1707485312147" duration="13800000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -327,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706885901388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add division into current and completed">
+      <option name="closed" value="true" />
+      <created>1707210247433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707210247433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +348,7 @@
     <MESSAGE value="Add average/marks task with blocking queues" />
     <MESSAGE value="Fix Generator function" />
     <MESSAGE value="Add first DynamicCapacityBlockingQueue task SynchronousQueue task and both Executors tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first DynamicCapacityBlockingQueue task SynchronousQueue task and both Executors tasks" />
+    <MESSAGE value="Add division into current and completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add division into current and completed" />
   </component>
 </project>
