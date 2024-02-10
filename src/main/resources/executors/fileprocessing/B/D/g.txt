@@ -1,3 +1,5 @@
+[g.txt]
+
 Airports can bring out the worst in people. With our skies and planes so crowded,
 it's no longer possible to say exactly when a flight will depart.
 Scheduling meetings to begin forty minutes after your expected arrival

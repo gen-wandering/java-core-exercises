@@ -1,3 +1,5 @@
+[d.txt]
+
 Ozone layer or ozonosphere, region of the stratosphere containing relatively high
 concentrations of ozone , located at altitudes of 12-30 mi (19-48 km) above the earth's
 surface. Ozone in the ozone layer is formed by the action of solar ultraviolet light on oxygen.

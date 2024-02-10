@@ -4,27 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add division into current and completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/AveragingRecursiveTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/GenerationRecursiveTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/ExpiringCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/TextSearchTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/Benchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/WordFrequencyCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wordfrequency/shakespeareX6.txt" afterDir="false" />
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add WordFrequency, ExpiringCache, ParallelTextSearch, average/marks with ForkJoinPool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/blockingqueues/AveragerStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/A/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/A/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/C/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/D/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/g.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/completed/executors/fileprocessing/files/B/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/TextSearchTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/TextSearchTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/A/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/A/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/C/e.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/D/g.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/executors/fileprocessing/B/c.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +84,7 @@
     "Application.com.tasks.completed.executors.fileprocessing.Main.executor": "Run",
     "Application.com.tasks.current.averagemarks.forkjoin.Main.executor": "Run",
     "Application.com.tasks.current.expiringcache.Main.executor": "Run",
+    "Application.com.tasks.current.textsearch.Main.executor": "Run",
     "Application.com.tasks.dynamicqueue.Main.executor": "Run",
     "Application.com.tasks.executors.fileprocessing.Main (1).executor": "Run",
     "Application.com.tasks.executors.fileprocessing.Main (2).executor": "Run",
@@ -140,22 +131,9 @@
       <recent name="com.tasks.averagemarks.syncindex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tasks.current.averagemarks.forkjoin.Main">
+  <component name="RunManager" selected="Application.com.tasks.current.textsearch.Main">
     <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tasks.current.wordfrequency.Benchmark" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tasks.current.wordfrequency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.current.wordfrequency.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -219,13 +197,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.tasks.current.textsearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.textsearch.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasks.current.textsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.tasks.current.textsearch.Main" />
         <item itemvalue="Application.com.tasks.current.averagemarks.forkjoin.Main" />
         <item itemvalue="Application.com.tasks.current.expiringcache.Main" />
         <item itemvalue="Application.Benchmark" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +268,8 @@
       <workItem from="1707472299779" duration="304000" />
       <workItem from="1707472705117" duration="1025000" />
       <workItem from="1707485312147" duration="13800000" />
+      <workItem from="1707505116243" duration="378000" />
+      <workItem from="1707578647104" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -326,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707210247433</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add WordFrequency, ExpiringCache, ParallelTextSearch, average/marks with ForkJoinPool">
+      <option name="closed" value="true" />
+      <created>1707505438515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707505438515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +350,7 @@
     <MESSAGE value="Fix Generator function" />
     <MESSAGE value="Add first DynamicCapacityBlockingQueue task SynchronousQueue task and both Executors tasks" />
     <MESSAGE value="Add division into current and completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add division into current and completed" />
+    <MESSAGE value="Add WordFrequency, ExpiringCache, ParallelTextSearch, average/marks with ForkJoinPool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add WordFrequency, ExpiringCache, ParallelTextSearch, average/marks with ForkJoinPool" />
   </component>
 </project>

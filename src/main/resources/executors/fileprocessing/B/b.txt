@@ -1,3 +1,5 @@
+[b.txt]
+
 There are a lot of animals on our planet. They can be wild and domestic.
 Wild animals are those animals who live in nature without people. Wolves,
 foxes, giraffes are wild animals. Domestic animals are animals who live

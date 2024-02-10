@@ -2,11 +2,9 @@ package com.tasks.current.textsearch;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
-import java.util.stream.Collectors;
 
 /*
  *  Parallelized Text Search:
@@ -16,8 +14,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String directoryPath = "/path/to/your/text/files";
-        String pattern = "keyword";
+        String directoryPath = "src/main/resources/executors/fileprocessing";
+        String pattern = "take";
 
         List<Path> filePaths = getFilePaths(directoryPath);
         List<String> lines = readLinesFromFiles(filePaths);
@@ -36,9 +34,9 @@ public class Main {
     }
 
     private static List<Path> getFilePaths(String directoryPath) throws Exception {
-        return Files.walk(Paths.get(directoryPath))
-                .filter(Files::isRegularFile)
-                .collect(Collectors.toList());
+        try (var walkStream = Files.walk(Path.of(directoryPath))) {
+            return walkStream.filter(Files::isRegularFile).toList();
+        }
     }
 
     private static List<String> readLinesFromFiles(List<Path> filePaths) throws Exception {

@@ -18,7 +18,7 @@ class TextSearchTask extends RecursiveTask<List<String>> {
     @Override
     protected List<String> compute() {
         if (lines.size() <= THRESHOLD) {
-            return lines.stream().filter(s -> s.matches(pattern)).toList();
+            return lines.stream().filter(s -> s.contains(pattern)).toList();
         } else {
             List<String> res = new ArrayList<>();
 

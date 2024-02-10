@@ -1,3 +1,5 @@
+[e.txt]
+
 In 1974 scientists warned that certain industrial chemicals, e.g., chlorofluorocarbons
 (CFCs) and to a lesser extent, halons and carbon tetrachloride, could migrate to the
 stratosphere. There, sunlight could free the chlorine or bromine atoms to form chlorine
