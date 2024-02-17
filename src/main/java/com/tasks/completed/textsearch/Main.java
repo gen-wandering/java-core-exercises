@@ -1,4 +1,4 @@
-package com.tasks.current.textsearch;
+package com.tasks.completed.textsearch;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

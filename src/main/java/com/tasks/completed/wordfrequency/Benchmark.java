@@ -1,11 +1,11 @@
-package com.tasks.current.wordfrequency;
+package com.tasks.completed.wordfrequency;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.tasks.current.wordfrequency.WordFrequencyCounter.trailingPunctuationMarks;
+import static com.tasks.completed.wordfrequency.WordFrequencyCounter.trailingPunctuationMarks;
 
 /*
  * Parallel Word Frequency Counter:

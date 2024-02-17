@@ -1,4 +1,4 @@
-package com.tasks.current.expiringcache;
+package com.tasks.completed.expiringcache;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

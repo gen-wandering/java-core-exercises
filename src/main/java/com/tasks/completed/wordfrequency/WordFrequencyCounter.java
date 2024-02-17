@@ -1,4 +1,4 @@
-package com.tasks.current.wordfrequency;
+package com.tasks.completed.wordfrequency;
 
 import java.io.IOException;
 import java.nio.file.Files;

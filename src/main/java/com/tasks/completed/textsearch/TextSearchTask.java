@@ -1,4 +1,4 @@
-package com.tasks.current.textsearch;
+package com.tasks.completed.textsearch;
 
 import java.util.ArrayList;
 import java.util.List;

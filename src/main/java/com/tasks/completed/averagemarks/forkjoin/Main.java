@@ -1,4 +1,4 @@
-package com.tasks.current.averagemarks.forkjoin;
+package com.tasks.completed.averagemarks.forkjoin;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.IntStream;
