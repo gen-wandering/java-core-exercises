@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add EventDrivenComposition">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterWithRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/RecursiveRetryMechanism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/Task.java" afterDir="false" />
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="RateLimiterWithRetry first attempt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RateLimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RetryMechanism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/IterativeRetryMechanism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterWithRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterWithRetry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +278,7 @@
       <workItem from="1708429235266" duration="1484000" />
       <workItem from="1708434419948" duration="1120000" />
       <workItem from="1708507718041" duration="646000" />
-      <workItem from="1708530249496" duration="14130000" />
+      <workItem from="1708530249496" duration="15118000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -374,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708204914373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="RateLimiterWithRetry first attempt">
+      <option name="closed" value="true" />
+      <created>1708544833977</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708544833977</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +404,7 @@
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Add CompletableFuture tasks" />
     <MESSAGE value="Add EventDrivenComposition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EventDrivenComposition" />
+    <MESSAGE value="RateLimiterWithRetry first attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="RateLimiterWithRetry first attempt" />
   </component>
 </project>
