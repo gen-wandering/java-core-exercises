@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/BatchProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/DependencyResolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/EventDrivenComposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/FanOutFanIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RetryMechanism.java" afterDir="false" />
+    <list default="true" id="a009a07e-6d2d-4816-b167-6e070feebb6e" name="Changes" comment="Add EventDrivenComposition">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateLimiterWithRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/ratelimiter/RateScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/RecursiveRetryMechanism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/AveragingRecursiveTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/forkjoin/AveragingRecursiveTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/GenerationRecursiveTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/forkjoin/GenerationRecursiveTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/averagemarks/forkjoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/averagemarks/forkjoin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/ExpiringCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/expiringcache/ExpiringCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/expiringcache/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/expiringcache/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/textsearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/textsearch/TextSearchTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/textsearch/TextSearchTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/wordfrequency/Benchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/wordfrequency/WordFrequencyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/completed/wordfrequency/WordFrequencyCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RateLimiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/RetryMechanism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tasks/current/completablefuture/retrymechanism/IterativeRetryMechanism.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,74 +56,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BatchProcessing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Benchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DependencyResolution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynamicCapacityBlockingQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EventDrivenComposition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FanOutFanIn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadBalancer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleConsumersExecutors (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleConsumersExecutors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RateLimiter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetryMechanism (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetryMechanism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.Test.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.Test.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.Test.Main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.Test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.blockingqueues.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.callableth.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.runnableth.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.syncindex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.tests.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.averagemarks.threadpool.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.completed.dynamicqueue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.completed.executors.fileprocessing.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.completed.executors.fileprocessing.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.completed.executors.fileprocessing.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.current.averagemarks.forkjoin.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.current.completablefuture.retrymechanism.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.current.expiringcache.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.current.textsearch.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.dynamicqueue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.fileprocessing.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.fileprocessing.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.fileprocessing.Main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.fileprocessing.Main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.fileprocessing.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.executors.matrices.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.letters.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.letters.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tasks.letters.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Tasks [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Tasks [compile].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Main/Programming/Java/Mentoring/Tasks/src/main/java/com/tasks/completed&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BatchProcessing.executor": "Run",
+    "Application.Benchmark.executor": "Run",
+    "Application.DependencyResolution.executor": "Run",
+    "Application.DynamicCapacityBlockingQueue.executor": "Run",
+    "Application.EventDrivenComposition.executor": "Run",
+    "Application.FanOutFanIn.executor": "Run",
+    "Application.LoadBalancer.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MultipleConsumersExecutors (1).executor": "Run",
+    "Application.MultipleConsumersExecutors.executor": "Run",
+    "Application.Program (1).executor": "Run",
+    "Application.Program (2).executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.RateLimiter.executor": "Run",
+    "Application.RecursiveRetryMechanism.executor": "Run",
+    "Application.RetryMechanism (1).executor": "Run",
+    "Application.RetryMechanism.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.com.tasks.Test.Main (1).executor": "Run",
+    "Application.com.tasks.Test.Main (2).executor": "Run",
+    "Application.com.tasks.Test.Main (3).executor": "Run",
+    "Application.com.tasks.Test.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.blockingqueues.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.callableth.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.runnableth.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.syncindex.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.tests.Main.executor": "Run",
+    "Application.com.tasks.averagemarks.threadpool.Main.executor": "Run",
+    "Application.com.tasks.completed.dynamicqueue.Main.executor": "Run",
+    "Application.com.tasks.completed.executors.fileprocessing.Main (1).executor": "Run",
+    "Application.com.tasks.completed.executors.fileprocessing.Main (2).executor": "Run",
+    "Application.com.tasks.completed.executors.fileprocessing.Main.executor": "Run",
+    "Application.com.tasks.current.averagemarks.forkjoin.Main.executor": "Run",
+    "Application.com.tasks.current.completablefuture.retrymechanism.Main.executor": "Run",
+    "Application.com.tasks.current.expiringcache.Main.executor": "Run",
+    "Application.com.tasks.current.textsearch.Main.executor": "Run",
+    "Application.com.tasks.dynamicqueue.Main.executor": "Run",
+    "Application.com.tasks.executors.fileprocessing.Main (1).executor": "Run",
+    "Application.com.tasks.executors.fileprocessing.Main (2).executor": "Run",
+    "Application.com.tasks.executors.fileprocessing.Main (3).executor": "Run",
+    "Application.com.tasks.executors.fileprocessing.Main (4).executor": "Run",
+    "Application.com.tasks.executors.fileprocessing.Main.executor": "Run",
+    "Application.com.tasks.executors.matrices.Main.executor": "Run",
+    "Application.com.tasks.letters.Main (1).executor": "Run",
+    "Application.com.tasks.letters.Main (2).executor": "Run",
+    "Application.com.tasks.letters.Main.executor": "Run",
+    "Maven.Tasks [clean].executor": "Run",
+    "Maven.Tasks [compile].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Main/Programming/Java/Mentoring/Tasks/src/main/java/com/tasks/completed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Main\Programming\Java\Mentoring\00-memory-multithreading-14.01.24\Tasks\src\main\java\com\tasks\averagemarks\syncindex" />
@@ -153,13 +145,13 @@
       <recent name="com.tasks.averagemarks.syncindex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BatchProcessing">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BatchProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.BatchProcessing" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.current.completablefuture.*" />
+          <option name="PATTERN" value="com.tasks.current.completablefuture.retrymechanism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.DependencyResolution" />
+    <configuration name="EventDrivenComposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.EventDrivenComposition" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.current.completablefuture.*" />
+          <option name="PATTERN" value="com.tasks.current.completablefuture.retrymechanism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,7 +177,7 @@
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.current.completablefuture.*" />
+          <option name="PATTERN" value="com.tasks.current.completablefuture.retrymechanism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.LoadBalancer" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.ratelimiter.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.current.completablefuture.*" />
+          <option name="PATTERN" value="com.tasks.current.completablefuture.ratelimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.RateLimiter" />
+    <configuration name="RecursiveRetryMechanism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasks.current.completablefuture.retrymechanism.RecursiveRetryMechanism" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasks.current.completablefuture.*" />
+          <option name="PATTERN" value="com.tasks.current.completablefuture.retrymechanism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BatchProcessing" />
-        <item itemvalue="Application.DependencyResolution" />
-        <item itemvalue="Application.LoadBalancer" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RecursiveRetryMechanism" />
         <item itemvalue="Application.FanOutFanIn" />
-        <item itemvalue="Application.RateLimiter" />
+        <item itemvalue="Application.EventDrivenComposition" />
+        <item itemvalue="Application.BatchProcessing" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +277,14 @@
       <workItem from="1707990655699" duration="2997000" />
       <workItem from="1707995175646" duration="8467000" />
       <workItem from="1708082051600" duration="5994000" />
-      <workItem from="1708180858114" duration="3170000" />
+      <workItem from="1708180858114" duration="4576000" />
+      <workItem from="1708201987278" duration="2648000" />
+      <workItem from="1708250022097" duration="861000" />
+      <workItem from="1708332660615" duration="978000" />
+      <workItem from="1708429235266" duration="1484000" />
+      <workItem from="1708434419948" duration="1120000" />
+      <workItem from="1708507718041" duration="646000" />
+      <workItem from="1708530249496" duration="14130000" />
     </task>
     <task id="LOCAL-00001" summary="Add tasks">
       <option name="closed" value="true" />
@@ -359,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707584556911</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add CompletableFuture tasks">
+      <option name="closed" value="true" />
+      <created>1708184096201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708184096201</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add EventDrivenComposition">
+      <option name="closed" value="true" />
+      <created>1708204914373</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708204914373</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +400,8 @@
     <MESSAGE value="Add WordFrequency, ExpiringCache, ParallelTextSearch, average/marks with ForkJoinPool" />
     <MESSAGE value="Add files for ParallelTextSearch" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Add CompletableFuture tasks" />
+    <MESSAGE value="Add EventDrivenComposition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add EventDrivenComposition" />
   </component>
 </project>

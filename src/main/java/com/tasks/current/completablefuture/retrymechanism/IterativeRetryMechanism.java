@@ -1,4 +1,4 @@
-package com.tasks.current.completablefuture;
+package com.tasks.current.completablefuture.retrymechanism;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -10,7 +10,7 @@ import java.util.function.Supplier;
  *    to execute a task multiple times until successful.
  * */
 
-public class RetryMechanism {
+public class IterativeRetryMechanism {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         var res = retryTask(5, 1, () -> {
@@ -42,10 +42,5 @@ public class RetryMechanism {
             future = future.exceptionallyAsync(throwable -> supplier.get());
         }
         return future;
-    }
-
-    @FunctionalInterface
-    interface Task<T> {
-        T execute() throws Exception;
     }
 }
