@@ -12,10 +12,10 @@ public class RateLimiterWithRetry {
                                 int maxRetries, long retryDilayMillis) {
         this.maxRetries = maxRetries;
         this.retryDilayMillis = retryDilayMillis;
-        RateScheduler.scheduleTokenRefill(maxTokens, refillRatePerSecond);
+        RefillRateScheduler.scheduleTokenRefill(maxTokens, refillRatePerSecond);
     }
 
     public CompletableFuture<String> executeWithRateLimit(RateLimiterTask rateLimiterTask) {
-        return RecursiveRetryMechanism.retryTask(maxRetries + 1, retryDilayMillis, rateLimiterTask);
+        return RecursiveRetryMechanism.retryTask(maxRetries, retryDilayMillis, rateLimiterTask);
     }
 }

@@ -5,7 +5,7 @@ import java.util.concurrent.CompletableFuture;
 public class RecursiveRetryMechanism {
     public static void main(String[] args) throws InterruptedException {
         var res = retryTask(5, 1000, () -> {
-            if (Math.random() < 0.5) {
+            if (Math.random() < 0.8) {
                 throw new RuntimeException("Task failed!");
             }
             return "Success";
@@ -31,7 +31,7 @@ public class RecursiveRetryMechanism {
                 future.complete(result);
             } catch (Exception e) {
                 if (remainingRetries > 0) {
-                    System.out.println(Thread.currentThread().getName() + ": task failed. Retrying...");
+                    System.out.println(Thread.currentThread().getName() + ": " + e.getMessage() + " Retrying...");
                     try {
                         Thread.sleep(retryDilayMillis);
                     } catch (InterruptedException ex) {

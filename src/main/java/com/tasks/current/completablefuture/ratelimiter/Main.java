@@ -11,9 +11,18 @@ package com.tasks.current.completablefuture.ratelimiter;
  * */
 
 public class Main {
+    // max amount of tasks per second
     private static final int MAX_TOKENS = 5;
-    private static final int MAX_RETRIES = 3;
+
+    // token refresh rate per second
     private static final int REFILL_PER_SECOND = 1;
+
+    // if some task exceeded the limit, then
+    // retry mechanism will try to perform this
+    // task MAX_RETRIES times
+    private static final int MAX_RETRIES = 3;
+
+    // time interval between retries for the same task
     private static final int RETRY_DILAY_MILLIS = 500;
 
     public static void main(String[] args) throws InterruptedException {
