@@ -1,27 +1,27 @@
-# Mentoring tasks
+# Java Core exercises
 
-1. **Java memory model | Multithreading**  
-    * package `deepclone`;
-    * package `averagemarks.syncindex`;
-    * package `averagemarks.runnableth`;
-    * package `averagemarks.callableth`;
-    * package `letters`.
+## **Java memory model | Multithreading**
 
-2. **Happens-before | Locks and synchronizers**
-    * Tasks are refactored.
+* Deep cloning ([`deepclone`](src/main/java/com/tasks/completed/deepclone));
+* Multithreading, using `synchronized` ([`syncindex`](src/main/java/com/tasks/completed/averagemarks/syncindex));
+* Multithreading, using `Runnable` ([`runnableth`](src/main/java/com/tasks/completed/averagemarks/runnableth));
+* Multithreading, using `Callable` ([`callableth`](src/main/java/com/tasks/completed/averagemarks/callableth));
+* Multithreading, using `Semaphore` ([`letters`](src/main/java/com/tasks/completed/letters)).
 
-3. **Executors**
-    * package `dynamicqueue`;
-    * package `averagemarks.blockingqueues`;
-    * package `synchronousqueue`;
-    * package `executors.fileprocessing`
-    * package `executors.matrices`.
+## **Executors**
 
-4. **Concurrent collections | ForkJoinPool**
-    * package `wordfrequency`;
-    * package `expiringcache`;
-    * package `textsearch`;
-    * package `averagemarks.forkjoin`.
+* Custom implementation of `DynamicCapacityBlockingQueue` ([`dynamicqueue`](src/main/java/com/tasks/completed/dynamicqueue));
+* Multithreading, using `DynamicCapacityBlockingQueue` ([`blockingqueues`](src/main/java/com/tasks/completed/averagemarks/blockingqueues));
+* Multithreading, using `SynchronousQueue` ([`synchronousqueue`](src/main/java/com/tasks/completed/synchronousqueue));
+* Multithreading, using `Executors` ([`executors`](src/main/java/com/tasks/completed/executors)).
 
-5. **CompletableFuture**
-   * package `completablefuture`.
+## **Concurrent collections | ForkJoinPool**
+
+* Multithreading, using `ConcurrentHashMap` with `Executors` ([`wordfrequency`](src/main/java/com/tasks/completed/wordfrequency));
+* Multithreading, using `ConcurrentHashMap` ([`expiringcache`](src/main/java/com/tasks/completed/expiringcache));
+* Multithreading, using `ForkJoinPool` ([`textsearch`](src/main/java/com/tasks/completed/textsearch));
+* Multithreading, using `ForkJoinPool` ([`forkjoin`](src/main/java/com/tasks/completed/averagemarks/forkjoin));.
+
+## **CompletableFuture**
+
+* Multithreading, using `CompletableFuture` ([`completablefuture`](src/main/java/com/tasks/current/completablefuture));.
