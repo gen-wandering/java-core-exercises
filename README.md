@@ -1,4 +1,4 @@
-# Java Core exercises
+# Java Core Exercises
 
 ## **Java memory model | Multithreading**
 
